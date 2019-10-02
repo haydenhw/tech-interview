@@ -19,13 +19,12 @@
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script>
   const renderTodos = (todos) => {
-    $.each(todos, function (index, value) {
-      $("#todos").append(value.name + '</br>');
+    $.each(todos, (index, todo) => {
+      $("#todos").append(todo.name + '</br>');
     });
   }
 
-  /************* Write your code below  ***************/
-
+ /************* Write your code below  ***************/
 
 </script>
 </html>
